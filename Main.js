@@ -76,7 +76,7 @@ function avoidObstacles(that, dir) { //Jorde
     return that.move(nextMoveDirection);
 }
 
-function GoTo(that, X, Y) {
+function GoTo(that, X, Y) {//Edward
     me = that.me();
     seen = {
         x: X,
